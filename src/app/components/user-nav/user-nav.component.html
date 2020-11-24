@@ -1,0 +1,6 @@
+<button mat-mini-fab class="add-user" routerLink="/useredit/0">
+  <mat-icon>add</mat-icon>
+</button>
+<div class="user-wrapper">
+  <simple-user *ngFor="let user of users" [user]="user"></simple-user>
+</div>

@@ -1,0 +1,7 @@
+<h1 mat-dialog-title>{{ data.title }}</h1>
+<div mat-dialog-actions>
+  <button mat-raised-button color="warn" [mat-dialog-close]="true">Igen</button>
+  <button mat-raised-button [mat-dialog-close]="false" cdkFocusInitial>
+    Nem
+  </button>
+</div>

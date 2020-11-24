@@ -1,0 +1,16 @@
+mat-card {
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+}
+
+mat-card-actions {
+  position: relative;
+  float: right;
+}
+
+button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
